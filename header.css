@@ -1,0 +1,35 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  padding-bottom: 1rem;
+  border-bottom: 3px solid black;
+}
+
+.mycat {
+  transition: color 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+}
+
+.mycat > img {
+  width: 22px;
+  margin-left: 1px;
+}
+
+.mycat > h2 {
+  font-family: "Josefin Slab";
+  font-size: 1.5rem;
+}
+
+.mycat:hover {
+  color: #d16d3b;
+}
+
+h2 {
+  font-family: "Hubballi", cursive;
+  font-size: 2rem;
+}

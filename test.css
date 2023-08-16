@@ -1,0 +1,92 @@
+#landing h2 {
+  font-family: Josefin Sans;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  padding-left: 6rem;
+  padding-top: 5rem;
+}
+
+#landing {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-family: Josefin Sans;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  padding-left: 6rem;
+  padding-top: 5rem;
+}
+
+/**/
+#text {
+  width: 33rem;
+  height: 2rem;
+  border: 2px solid #000;
+  background: #d9d9d9;
+  margin-left: 6rem;
+  margin-top: 2rem;
+}
+
+input[type="form-btn"] {
+  position: relative;
+  width: 20rem;
+  height: 5rem;
+  background: #d16d3b;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 2px solid #000;
+  box-shadow: 10px 15px 0px 1px black;
+  cursor: pointer;
+  font-size: 2.5rem;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  transition: box-shadow 0.3s, background 0.3s, color 0.3s, transform 0.3s;
+  margin-left: 6rem;
+  margin-top: 15rem;
+  left: 65rem;
+}
+
+input[type="form-btn"]:hover {
+  box-shadow: 5px 7.5px 0px 0.5px black;
+  background: #4aa629;
+  color: #fff;
+  cursor: pointer;
+}
+
+/**/
+.choose {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.type {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.type img {
+  max-width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+.type p {
+  font-family: Josefin Sans;
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+}

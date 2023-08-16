@@ -1,0 +1,15 @@
+.form-container {
+  width: 1400px;
+  overflow-x: scroll;
+}
+
+.slider {
+  border: 1px solid red;
+  display: flex;
+  width: 2800px;
+}
+
+.form-question {
+  border: 1px solid blue;
+  width: 1400px !important;
+}
